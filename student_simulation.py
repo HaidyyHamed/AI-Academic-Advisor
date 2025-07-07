@@ -10,7 +10,7 @@ def generate_students(curriculum, courses, n=100):
         completed = set()
         for course in all_courses:
             if all(p in completed for p in courses[course]):
-                if random.random() < 0.3:
+                if random.random() < 0.6:
                     completed.add(course)
         gpa = round(random.uniform(2.0, 4.0), 2)
         interest = random.choice(interests_pool)
