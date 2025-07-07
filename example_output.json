@@ -1,0 +1,20 @@
+{
+  "student": {
+    "id": 0,
+    "completed_courses": [
+      "Math II",
+      "Math I",
+      "Intro CS"
+    ],
+    "grades": {
+      "Math II": 3.85,
+      "Math I": 2.34,
+      "Intro CS": 3.12
+    },
+    "gpa": 3.31,
+    "interest": "Data Science"
+  },
+  "recommended": [
+    "Data Structures"
+  ]
+}
